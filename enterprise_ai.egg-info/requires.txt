@@ -1,0 +1,13 @@
+fastapi<1.0,>=0.115
+openai<3.0,>=1.59
+pydantic-settings<3.0,>=2.6
+sqlalchemy[asyncio]<3.0,>=2.0
+asyncpg<1.0,>=0.29
+PyJWT[crypto]<3.0,>=2.10
+alembic<2.0,>=1.13
+uvicorn[standard]<1.0,>=0.34
+
+[test]
+httpx<1.0,>=0.28
+pytest<9.0,>=8.3
+aiosqlite<1.0,>=0.20
